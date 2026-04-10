@@ -8,14 +8,17 @@
     width: 100%;
     position:absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 10px;
    
 }
 #navbar img{
-    height: 50px;
+    height: 60px;
     width: 120px;
+    z-index: 1;
+    color: red;
+    
 }
 #bgmain{ 
     background-image: url(background.jpg);
@@ -27,6 +30,7 @@
    background-repeat: no-repeat;
    background-size: cover;
    flex-direction: column;
+   padding: 0px 80px 0px 80px ;
    
 }
 #back{
@@ -48,17 +52,69 @@
    gap: 10px;
     z-index: 1;
     color: white;
-    padding:0px 80px 0px 80px;
+   
 
 }
 #text2{
     z-index: 1;
     color: white;
     font-family:Arial, sans-serif ;
-    padding: 0px 80px 0px 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
+}
+
+#nav-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+
+}
+    
+#impbtn{
+    display: flex;
+    gap: 5px;
+}
+#navbar select{
+   height: 30px;
+   width: 100px;
+   background-color: rgba(0, 0, 0, 0);
+   border-color: 1px solid white;
+   border-radius: 5px;
+   color: white;
+   
+}
+#navbar button{
+    height: 30px;
+    width: 80px;
+   border-radius: 5px;
+   border: none;
+   background-color: red;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#text2 input{
+ width: 250px;
+ height: 50px;
+ border-radius: 5px;
+ border: none;
+ padding-left: 10px;
+background-color: rgba(0, 0, 0, 0.283);
+ border: 1px solid white;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+input::placeholder{
+    color: white;
+}
+#btn2{
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    background-color: red;
+    color: white;
 }
