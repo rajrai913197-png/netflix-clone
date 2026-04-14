@@ -124,7 +124,7 @@
     font-size: small;
 }
 #bg-main2{
-    height: 60vh;
+    height: auto;
     width: 100%;
     background-color: black;
     position: relative;
@@ -161,11 +161,11 @@
 #mainslide{
     height: auto;
     width: 100%;
-  
-  padding: 0px 80px 0px 80px;;
+   padding: 0px 80px 0px 80px;;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
   
 }
 .cards{
@@ -173,8 +173,7 @@
     width: 200px;
     border: 1px solid white;
     border-radius: 10px;
-    
-    
+    object-fit: cover;  
 }
 #slides{
  display: grid;
@@ -190,7 +189,46 @@
    height: 40px;
    justify-content: space-between;
    position: absolute;
-   top: 150px;
+   top: 100px;
    padding: 40px;
-   object-fit: cover;
+  object-fit: contain;
+  
+   
+   
+}
+#angels i{
+    font-size: larger;
+    cursor: pointer;
+}
+#boxbar{
+    height: auto;
+    width: 100%;
+  padding: 0px 80px 0px 80px;
+
+}
+#boxbar h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+   
+    
+}
+#boxs .boxes{
+    height: 300px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+#boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px 0px;
+
+}
+.cards:hover{
+   transform: scale(0.9);
 }
