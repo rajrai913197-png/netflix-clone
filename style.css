@@ -32,14 +32,7 @@
    background-size: cover;
    flex-direction: column;
    padding: 0px 80px 0px 80px ;
-   
-}
-#back{
-    height: 80vh;
-    width: 100%;
-    background-color: black;
-    position: absolute;
-    opacity: 70%;
+   position: relative;
    
 }
    
@@ -73,6 +66,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    z-index: 1;
 
 }
     
@@ -248,7 +242,7 @@
     font-size: small;
 }
 #notebar{
-height: 580px;
+height: auto;
 width: 100%;
 background-color: black;
 
@@ -281,4 +275,93 @@ padding: 10px 80px 10px 80px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     
+}
+.boxes:hover{
+    transform: scale(1.1);
+}
+#footbar{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    /* justify-content: center; */
+    padding: 10px 80px 10px 80px;
+    flex-direction: column;
+    gap: 40px;
+}
+#membership{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#membership p{
+    color: white;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+#membership div input{
+    height: 35px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.417);
+    border: 1px solid white;
+    color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#membership div button{
+    height: 35px;
+    width: 150px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+#subsection{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+#footBarlast{
+    height: auto;
+    width: 100%;
+}
+#call-Details{
+    display: flex;
+    gap: 4px;
+}
+#call-Details p{
+    color: white;
+    font-size: small;
+
+}
+#call-Details #num{
+    text-decoration: underline;
+}
+#links-bar{
+    height:auto;
+    width: 100%;
+   
+}
+#links-sec{
+    display: flex;
+    align-items: center;
+   gap: 20px;
+   flex-wrap: wrap;
+   width: 100%;
+   
+}
+#links-sec div li{
+    list-style: none;
+}
+#links-sec div li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: small;
+}
+#back{
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.702);
+    position: absolute ;
+    z-index: 1;
 }
