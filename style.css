@@ -328,6 +328,7 @@ padding: 10px 80px 10px 80px;
 #call-Details{
     display: flex;
     gap: 4px;
+    flex-wrap: nowrap;
 }
 #call-Details p{
     color: white;
@@ -364,4 +365,34 @@ padding: 10px 80px 10px 80px;
     background-color: rgba(0, 0, 0, 0.702);
     position: absolute ;
     z-index: 1;
+}
+#dic{
+    height: 150px;
+    width: 100%;
+}
+#dic select{
+    width: 120px;
+    height: 35px;
+    background-color: #090505;
+    color: white;
+    padding-left:10px;
+    border-radius: 5px;
+}
+#dic h5{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: small;
+    font-weight: lighter;
+}
+#dic p{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: small;
+    font-weight: lighter;
+}
+#dic{
+    display: flex;
+   gap: 20px;
+   flex-direction: column;
+
 }
